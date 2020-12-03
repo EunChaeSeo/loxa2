@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.3" version="1.3" xmlns:viz="http://www.gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.3 http://www.gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2020-12-03">
+    <creator>Gephi 0.9</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="gender" title="gender" type="string"></attribute>
+      <attribute id="role" title="role" type="string"></attribute>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="relation" title="relation" type="string"></attribute>
+    </attributes>
+    <nodes>
+      <node id="기우" label="기우">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="과외선생_사기"></attvalue>
+          <attvalue for="indegree" value="11"></attvalue>
+          <attvalue for="outdegree" value="11"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="weighted indegree" value="122.0"></attvalue>
+          <attvalue for="weighted outdegree" value="114.0"></attvalue>
+          <attvalue for="weighted degree" value="236.0"></attvalue>
+        </attvalues>
+        <viz:size value="170.0"></viz:size>
+        <viz:position x="0.15755905" y="0.07120743"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="기정" label="기정">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="미술선생_사기"></attvalue>
+          <attvalue for="indegree" value="9"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted indegree" value="69.0"></attvalue>
+          <attvalue for="weighted outdegree" value="76.0"></attvalue>
+          <attvalue for="weighted degree" value="145.0"></attvalue>
+        </attvalues>
+        <viz:size value="160.0"></viz:size>
+        <viz:position x="-332.07193" y="274.21445"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="충숙" label="충숙">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="가정부_사기"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="9"></attvalue>
+          <attvalue for="degree" value="15"></attvalue>
+          <attvalue for="weighted indegree" value="57.0"></attvalue>
+          <attvalue for="weighted outdegree" value="65.0"></attvalue>
+          <attvalue for="weighted degree" value="122.0"></attvalue>
+        </attvalues>
+        <viz:size value="146.66667"></viz:size>
+        <viz:position x="108.905106" y="363.19812"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="기택" label="기택">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="운전기사_사기"></attvalue>
+          <attvalue for="indegree" value="10"></attvalue>
+          <attvalue for="outdegree" value="10"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="weighted indegree" value="75.0"></attvalue>
+          <attvalue for="weighted outdegree" value="78.0"></attvalue>
+          <attvalue for="weighted degree" value="153.0"></attvalue>
+        </attvalues>
+        <viz:size value="163.33333"></viz:size>
+        <viz:position x="162.25749" y="-384.78415"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="가족들" label="가족들">
+        <attvalues>
+          <attvalue for="gender" value="F/M"></attvalue>
+          <attvalue for="role" value="사기꾼들"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted indegree" value="23.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+        </attvalues>
+        <viz:size value="116.666664"></viz:size>
+        <viz:position x="-128.03535" y="599.06683"></viz:position>
+        <viz:color r="255" g="244" b="143"></viz:color>
+      </node>
+      <node id="피자사장" label="피자사장">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="피자사장"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted indegree" value="10.0"></attvalue>
+          <attvalue for="weighted outdegree" value="6.0"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="113.333336"></viz:size>
+        <viz:position x="206.64348" y="698.2004"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="피자남자" label="피자남자">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="알바생"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="44.859787" y="-839.20496"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="민혁" label="민혁">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="대학생"></attvalue>
+          <attvalue for="indegree" value="5"></attvalue>
+          <attvalue for="outdegree" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted indegree" value="24.0"></attvalue>
+          <attvalue for="weighted outdegree" value="22.0"></attvalue>
+          <attvalue for="weighted degree" value="46.0"></attvalue>
+        </attvalues>
+        <viz:size value="130.0"></viz:size>
+        <viz:position x="459.05792" y="318.08267"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="취객" label="취객">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="무직"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted indegree" value="3.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+        </attvalues>
+        <viz:size value="106.666664"></viz:size>
+        <viz:position x="802.9345" y="424.78384"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="피시방알바생" label="피시방알바생">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="알바생"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-771.11163" y="571.7067"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="문광" label="문광">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="가정부"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="weighted indegree" value="31.0"></attvalue>
+          <attvalue for="weighted outdegree" value="41.0"></attvalue>
+          <attvalue for="weighted degree" value="72.0"></attvalue>
+        </attvalues>
+        <viz:size value="143.33334"></viz:size>
+        <viz:position x="419.84357" y="-27.718006"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="연교" label="연교">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="동익네_엄마"></attvalue>
+          <attvalue for="indegree" value="8"></attvalue>
+          <attvalue for="outdegree" value="9"></attvalue>
+          <attvalue for="degree" value="17"></attvalue>
+          <attvalue for="weighted indegree" value="96.0"></attvalue>
+          <attvalue for="weighted outdegree" value="106.0"></attvalue>
+          <attvalue for="weighted degree" value="202.0"></attvalue>
+        </attvalues>
+        <viz:size value="153.33334"></viz:size>
+        <viz:position x="-405.6833" y="-116.60526"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="다혜" label="다혜">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="동익네_딸"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="3"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted indegree" value="21.0"></attvalue>
+          <attvalue for="weighted outdegree" value="16.0"></attvalue>
+          <attvalue for="weighted degree" value="37.0"></attvalue>
+        </attvalues>
+        <viz:size value="116.666664"></viz:size>
+        <viz:position x="-160.49683" y="-321.21655"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="다송" label="다송">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="동익네_아들"></attvalue>
+          <attvalue for="indegree" value="4"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted indegree" value="16.0"></attvalue>
+          <attvalue for="weighted outdegree" value="8.0"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+        </attvalues>
+        <viz:size value="116.666664"></viz:size>
+        <viz:position x="-708.38293" y="-377.5328"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="동익" label="동익">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="동익네_아빠"></attvalue>
+          <attvalue for="indegree" value="6"></attvalue>
+          <attvalue for="outdegree" value="8"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="weighted indegree" value="49.0"></attvalue>
+          <attvalue for="weighted outdegree" value="58.0"></attvalue>
+          <attvalue for="weighted degree" value="107.0"></attvalue>
+        </attvalues>
+        <viz:size value="143.33334"></viz:size>
+        <viz:position x="-379.6779" y="-534.84247"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="윤기사" label="윤기사">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="운전기사"></attvalue>
+          <attvalue for="indegree" value="2"></attvalue>
+          <attvalue for="outdegree" value="2"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted indegree" value="3.0"></attvalue>
+          <attvalue for="weighted outdegree" value="3.0"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+        </attvalues>
+        <viz:size value="110.0"></viz:size>
+        <viz:position x="-789.33344" y="140.87021"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="동익회사비서" label="동익회사비서">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="비서"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="405.85852" y="-856.1364"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="동익회사직원" label="동익회사직원">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="직원"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-405.38025" y="-993.6324"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="문광친구" label="문광친구">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="알수없음"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="916.07513" y="-32.594482"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="근세" label="근세">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="무직"></attvalue>
+          <attvalue for="indegree" value="3"></attvalue>
+          <attvalue for="outdegree" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted indegree" value="11.0"></attvalue>
+          <attvalue for="weighted outdegree" value="15.0"></attvalue>
+          <attvalue for="weighted degree" value="26.0"></attvalue>
+        </attvalues>
+        <viz:size value="120.0"></viz:size>
+        <viz:position x="565.5034" y="-393.61447"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="연교친구" label="연교친구">
+        <attvalues>
+          <attvalue for="gender" value="F"></attvalue>
+          <attvalue for="role" value="알수없음"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-1006.66656" y="-134.07117"></viz:position>
+        <viz:color r="3" g="168" b="0"></viz:color>
+      </node>
+      <node id="생일파티참가자" label="생일파티참가자">
+        <attvalues>
+          <attvalue for="gender" value="F/M"></attvalue>
+          <attvalue for="role" value="연교친구들"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="0"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="0.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="916.5385" y="-553.84595"></viz:position>
+        <viz:color r="255" g="244" b="143"></viz:color>
+      </node>
+      <node id="형사" label="형사">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="형사"></attvalue>
+          <attvalue for="indegree" value="1"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted indegree" value="1.0"></attvalue>
+          <attvalue for="weighted outdegree" value="2.0"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+        </attvalues>
+        <viz:size value="103.333336"></viz:size>
+        <viz:position x="-445.60318" y="725.3869"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+      <node id="의사" label="의사">
+        <attvalues>
+          <attvalue for="gender" value="M"></attvalue>
+          <attvalue for="role" value="의사"></attvalue>
+          <attvalue for="indegree" value="0"></attvalue>
+          <attvalue for="outdegree" value="1"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted indegree" value="0.0"></attvalue>
+          <attvalue for="weighted outdegree" value="1.0"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="100.0"></viz:size>
+        <viz:position x="-489.43964" y="1034.1823"></viz:position>
+        <viz:color r="255" g="250" b="251"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="615" source="기우" target="기우" weight="5.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="자신_독백"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="616" source="기우" target="기정" weight="21.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="자매"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="617" source="기정" target="기우" weight="25.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="남매"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="618" source="충숙" target="기우" weight="15.0">
+        <viz:color r="140" g="70" b="103"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="619" source="기우" target="충숙" weight="10.0">
+        <viz:color r="140" g="70" b="103"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="620" source="충숙" target="기택" weight="12.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="621" source="기택" target="기우" weight="23.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부자_편지"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="622" source="기우" target="가족들" weight="2.0">
+        <viz:color r="150" g="15" b="80"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="구성원"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="627" source="충숙" target="기정" weight="7.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="633" source="충숙" target="가족들" weight="3.0">
+        <viz:color r="150" g="15" b="80"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="구성원"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="634" source="기택" target="가족들" weight="8.0">
+        <viz:color r="150" g="15" b="80"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="구성원"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="635" source="기우" target="기택" weight="20.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="639" source="기정" target="충숙" weight="8.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="640" source="기정" target="가족들" weight="5.0">
+        <viz:color r="150" g="15" b="80"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="구성원"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="641" source="충숙" target="피자사장" weight="4.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="642" source="피자사장" target="충숙" weight="4.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="649" source="기우" target="피자사장" weight="4.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="650" source="피자사장" target="기우" weight="2.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="652" source="기정" target="피자사장" weight="2.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="654" source="피자남자" target="기우">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="660" source="기택" target="충숙" weight="6.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="662" source="기택" target="기정" weight="6.0">
+        <viz:color r="151" g="43" b="126"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="664" source="민혁" target="취객" weight="2.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="행인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="665" source="취객" target="민혁">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="행인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="672" source="민혁" target="가족들" weight="2.0">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="673" source="기택" target="민혁" weight="4.0">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="674" source="기우" target="민혁" weight="16.0">
+        <viz:color r="81" g="16" b="51"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="친구"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="675" source="민혁" target="기택" weight="3.0">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="677" source="민혁" target="기우" weight="14.0">
+        <viz:color r="81" g="16" b="51"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="친구"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="680" source="기정" target="민혁" weight="2.0">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="681" source="민혁" target="기정">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="687" source="기택" target="기택">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="독백_혼잣말"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="691" source="충숙" target="민혁">
+        <viz:color r="196" g="0" b="130"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="지인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="718" source="피시방알바생" target="기정">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="직원손님"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="728" source="문광" target="기우" weight="8.0">
+        <viz:color r="95" g="58" b="61"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="증오"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="729" source="기우" target="문광" weight="8.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="갑"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="740" source="문광" target="연교" weight="5.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="계약만료"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="741" source="연교" target="기우" weight="15.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="742" source="기우" target="연교" weight="14.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="746" source="기우" target="다혜" weight="13.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="선생학생_사랑"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="747" source="다혜" target="기우" weight="12.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="선생학생_사랑"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="752" source="연교" target="다송" weight="7.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모자_편애"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="777" source="연교" target="기정" weight="29.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="778" source="기정" target="연교" weight="24.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="802" source="연교" target="문광" weight="3.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="809" source="기정" target="다송">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="선생학생"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="812" source="기정" target="문광">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="동업자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="823" source="연교" target="동익" weight="22.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="825" source="동익" target="기정">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="826" source="동익" target="연교" weight="28.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="827" source="동익" target="윤기사">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="828" source="윤기사" target="동익">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="830" source="윤기사" target="기정" weight="2.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="직장동료_호감"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="831" source="기정" target="윤기사" weight="2.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="직장동룍_이용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="834" source="기정" target="기택" weight="6.0">
+        <viz:color r="151" g="43" b="126"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="892" source="동익회사비서" target="기택">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="안내"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="893" source="기택" target="동익" weight="15.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="894" source="동익" target="동익회사직원">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="직장동료"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="895" source="동익" target="기택" weight="16.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="911" source="문광" target="문광친구">
+        <viz:color r="81" g="16" b="51"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="친구"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="912" source="기택" target="연교" weight="11.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="913" source="연교" target="기택" weight="9.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="963" source="다송" target="동익" weight="7.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="964" source="동익" target="다송" weight="7.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="968" source="다송" target="연교">
+        <viz:color r="140" g="70" b="103"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모자"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="977" source="기우" target="취객">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="행인"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="980" source="다혜" target="동익">
+        <viz:color r="151" g="43" b="126"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="981" source="연교" target="다혜" weight="5.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모녀_소외"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="982" source="동익" target="다혜" weight="3.0">
+        <viz:color r="151" g="43" b="126"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="984" source="연교" target="충숙" weight="15.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="985" source="충숙" target="연교" weight="10.0">
+        <viz:color r="134" g="53" b="73"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="피고용고용"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1036" source="문광" target="충숙" weight="14.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="선후배"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1037" source="충숙" target="문광" weight="12.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="선후임"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1047" source="문광" target="근세" weight="7.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1048" source="근세" target="문광" weight="6.0">
+        <viz:color r="205" g="0" b="95"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="부부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1069" source="문광" target="가족들" weight="3.0">
+        <viz:color r="95" g="58" b="61"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="증오"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1070" source="기택" target="문광">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="을"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1071" source="문광" target="기택" weight="2.0">
+        <viz:color r="95" g="58" b="61"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="증오"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1081" source="문광" target="기정">
+        <viz:color r="95" g="58" b="61"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="증오"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1097" source="근세" target="기택" weight="5.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="을"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1104" source="기택" target="근세" weight="3.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="갑"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1106" source="근세" target="동익" weight="3.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="을_존경"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1118" source="다혜" target="연교" weight="3.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="모녀"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1124" source="충숙" target="다송">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="가정부"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1188" source="연교" target="연교친구">
+        <viz:color r="81" g="16" b="51"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="친구"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1215" source="근세" target="생일파티참가자">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="불청객"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1218" source="동익" target="근세">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="혐오"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1221" source="형사" target="기우" weight="2.0">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="수사"></attvalue>
+        </attvalues>
+      </edge>
+      <edge id="1222" source="의사" target="형사">
+        <viz:color r="192" g="192" b="192"></viz:color>
+        <attvalues>
+          <attvalue for="relation" value="설명"></attvalue>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
